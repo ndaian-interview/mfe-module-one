@@ -8,6 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
+    publicPath: "http://localhost:3001/",
     clean: true,
   },
   devServer: {
